@@ -1,0 +1,49 @@
+{
+    "projects": [
+        {
+            "id": 1,
+            "project_name": "Data Pagination and Filtering",
+            "description": "This is where the description would go .....",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "live_link": "Still looking for this...",
+            "github_link": "https://github.com/cdgmachado0/Data-Pagination-And-Filtering",
+            "image_urls": ["/static/images/pagination-1.png", "/static/images/pagination-2.png"]
+        },
+        {
+            "id": 2,
+            "project_name": "Interactive Form",
+            "description": "This is where the description would go .....",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "live_link": "Still looking for this...",
+            "github_link": "https://github.com/cdgmachado0/Interactive-Form",
+            "image_urls": ["/static/images/interactive-form-1.png", "/static/images/interactive-form-2.png"]
+        },
+        {
+            "id": 3,
+            "project_name": "Object-Oriented-Programming Game Show App",
+            "description": "This is where the description would go .....",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "live_link": "Still looking for this...",
+            "github_link": "https://github.com/cdgmachado0/OOP-Game-Show-App",
+            "image_urls": ["/static/images/phrase-hunter-1.png", "/static/images/phrase-hunter-2.png"]
+        },
+        {
+            "id": 4,
+            "project_name": "Public API Requests",
+            "description": "This is where the description would go .....",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "live_link": "Still looking for this...",
+            "github_link": "https://github.com/cdgmachado0/public-api-requests",
+            "image_urls": ["/static/images/Public-API-1.png", "/static/images/Public-API-2.png"]
+        },
+        {
+            "id": 5,
+            "project_name": "Random Quote Generator",
+            "description": "This is where the description would go .....",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "live_link": "Still looking for this...",
+            "github_link": "https://github.com/cdgmachado0/Random-Quote-Generator",
+            "image_urls": ["/static/images/random-1.png", "/static/images/random-2.png"]
+        }          
+    ]
+}
