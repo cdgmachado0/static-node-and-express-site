@@ -24,16 +24,18 @@ app.get('/project/:id', (req, res) => {
 
 // Handling errors
 app.use((req, res, next) => {
-    const err = new Error("Page doesn't exist. Please try again.");
+    const err = new Error("Page doesn't exist. Check the URL.");
     err.status = 404;
     next(err);
 });
 
 app.use((err, req, res, next) => {
-    if (err.status === 404) {
-        console.log(err.message);
+    if (err.status !== 404) {
+        err.message = 'There was an internal problem. Try again later.';
+        err.status = err.status || 500;
     }
-    next(); //handling the 404 error (successfully)
+    console.log(err.message, err.status);
+    res.render('error', { err });
 });
 
 
