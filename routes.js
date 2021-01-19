@@ -3,7 +3,6 @@ const router = express.Router();
 const { projects } = require('./data.json');
 
 
-// Routes
 router.get('/', (req, res) => {
     res.render('index', { projects });
 })

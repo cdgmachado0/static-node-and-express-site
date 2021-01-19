@@ -1,10 +1,12 @@
 
+//Handler for 404 errors
 const notFound = (req, res, next) => {
     const err = new Error("Page doesn't exist. Check the URL.");
     err.status = 404;
     next(err);
 }
 
+//Handler for all other errors except 404
 const otherErrors = (err, req, res, next) => {
     let error = '';
     if (err.status !== 404) {

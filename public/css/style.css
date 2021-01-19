@@ -58,14 +58,14 @@ a:hover{
 
 .portfolio-me{
   padding: 20px;
-  background: #121213;
+  background: #61cad1;
   color: #fff;
   box-shadow: none !important;
 }
 
   .portfolio-me p{
     font-size: 14px;
-    color: #999;
+    color: rgb(39, 37, 37);
   }
 
   .portfolio-me a{
@@ -147,4 +147,8 @@ a:hover{
 
 .portfolio-bio{
     line-height: 25px;
+}
+
+h1, h2, h3, h4, h5 {
+  text-shadow: 1px 1px rgb(107, 67, 67)
 }
