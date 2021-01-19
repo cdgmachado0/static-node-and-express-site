@@ -30,13 +30,17 @@ app.use((req, res, next) => {
 });
 
 app.use((err, req, res, next) => {
+    let error = '';
     if (err.status !== 404) {
         err.message = 'There was an internal problem. Try again later.';
         err.status = err.status || 500;
+        error = 'error';
+    } else {
+        error = 'page-not-found';
     }
     console.log(err.message, err.status);
-    res.render('error', { err });
-});
+    res.render(error, { err })
+}); //finished with handling errors but get an error when quite the server. Check
 
 
 // Start server
